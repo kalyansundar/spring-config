@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spring Cloud Config Server
 A docker image of [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-static/spring-cloud-config/2.1.4.RELEASE/single/spring-cloud-config.html).
 
@@ -80,3 +81,6 @@ docker run -it -p 8888:8888 \
       -e SPRING_PROFILES_ACTIVE=vault \
       hyness/spring-cloud-config-server
 ```
+=======
+# spring-config
+>>>>>>> 195737485d7a34f65cb4d8f085a6c15b4d133f38
