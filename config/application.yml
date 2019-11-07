@@ -1,0 +1,19 @@
+### application.yml ###
+info:
+  component: Config Server
+spring:
+  application:
+    name: configserver
+  jmx:
+    default_domain: cloud.config.server
+  cloud:
+    config:
+      server:
+         git:
+          uri: https://git-codecommit.us-west-2.amazonaws.com/v1/repos/config-repo 
+          ignoreLocalSshSettings: true
+          hostKey: someHostKey
+          hostKeyAlgorithm: ssh-rsa
+          private_key_file: /root/.ssh/id_rsa
+management:
+  context_path: /admin
